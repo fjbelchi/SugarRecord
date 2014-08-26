@@ -1,1 +1,3 @@
-languague: objective-c
+languague: swift
+script:
+  xcodebuild test -project SugarRecordDemo/SugarRecord.xcodeproj -scheme SugarRecord -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
